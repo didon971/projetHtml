@@ -1,7 +1,11 @@
+
 body {
+  /*margin : 0;*/
   font-family: arial;
   font-size: 12px;
   border: 0;
+  margin-left: 465px;
+  margin-right: 465px;
 }
 header {
   color: #ee662a;
@@ -9,6 +13,8 @@ header {
   border-bottom: 2px dotted #ccc;
   margin: 0;
   padding: 0.8em;
+  margin-top: -12px;
+  margin-bottom: -41px;
 }
 header h1 {
   font-size: 4em;
@@ -20,6 +26,7 @@ header h2 {
   font-weight: bold;
   margin: 0 0 2.5em 10em;
   color: #e74b25;
+  margin-left: 160px;
 }
 header img {
   float: left;
@@ -52,7 +59,7 @@ nav li a:hover {
 }
 /* section */
 section {
-  width: 65vw;
+  width: 35vw;
   float: left;
 }
 section p,
@@ -66,8 +73,7 @@ section h2 {
 }
 footer {
   clear: both;
-  width: 100%;
-  margin-left: 0px;
+   margin-left: 0px;
   font-size: 10px;
   background: #f2f2f2 url("../images/footer_background.jpg") no-repeat left;
   height: 80px;
@@ -125,15 +131,20 @@ article footer p {
 /*figure */
 figure {
   float: right;
-  border: 1px solid gray;
+  border: 1px solid grey;
   padding: 0.25em;
   margin: 0 1.5em 1.5em 0;
 }
 figcaption {
   text-align: center;
   font: italic 0.9em Georgia, "Times New Roman", Times, serif;
-}
+  color: grey;
+  }
 .decale {
+  margin-left: 10px;
+  margin-bottom: 30px;
+}
+.decale1 {
   margin-left: 10px;
 }
 /* formulaire */
@@ -143,4 +154,11 @@ figcaption {
 }
 .text_footer {
   margin-left: 1em;
+}
+.tailleImg{
+  width: 200px;
+
+}
+.copyright{
+  margin-top: 50px;
 }
