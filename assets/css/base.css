@@ -131,7 +131,7 @@ figure {
 }
 figcaption {
   text-align: center;
-  font: italic 0.9em Georgia, «Times New Roman», Times, serif;
+  font: italic 0.9em Georgia, "Times New Roman", Times, serif;
 }
 .decale {
   margin-left: 10px;
@@ -141,6 +141,6 @@ figcaption {
   padding: 0 3em 3em 3em;
   margin: auto;
 }
-.text_footer{
-margin-left: 1em;
+.text_footer {
+  margin-left: 1em;
 }
