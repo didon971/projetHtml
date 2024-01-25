@@ -1,13 +1,111 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="assets/css/base.css" rel="stylesheet" />
+    <link href="assets/css/correctif_balise.css" rel="stylesheet" />
     <link rel="icon" href="img/canard.png" />
     <title>Projet de fil rouge</title>
 </head>
+
 <body>
- test
+
+    <header>
+        <img src="assets/images/html55.png" alt="logo" />
+        <h1>HTML5</h1>
+        <h2>Page modèle exercice</h2>
+    </header>
+
+
+    <nav>
+        <ul>
+            <li><a href="#">ACCUEIL</a></li>
+            <li><a href="#">A PROPOS</a></li>
+            <li><a href="#">DIAPORAMA</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+    </nav>
+    <aside id="main_aside">
+        <h3>Dernières recommandations</h3>
+        <p>
+            Donec libero magna, dapibus ac facilisis ut, sodales et nulla.
+            Suspendisse interdum consequat elit vitae iaculis. In commodo vulputate
+            orci, nec laoreet ipsum. Cras at felis quis urna mattis ullamcorper.
+            Phasellus mauris sem, varius nec convallis ullamcorper, hendrerit a
+            tortor. Integer non sapien nec ex dapibus sollicitudin vel et augue.
+            Mauris imperdiet porta elit, sed dignissim tortor ullamcorper vitae.
+            Proin urna quam, bibendum.</p>
+        <p>Donec libero magna, dapibus ac facilisis ut, sodales et nulla.
+            Suspendisse interdum consequat elit vitae iaculis. In commodo
+            vulputate orci, nec laoreet ipsum. Cras at felis quis urna mattis
+            ullamcorper. Phasellus mauris sem, varius nec convallis ullamcorper,
+            hendrerit a tortor. Integer non sapien nec ex dapibus sollicitudin vel
+            et augue. Mauris imperdiet porta elit, sed dignissim tortor
+            ullamcorper vitae. Proin urna quam, bibendum ac aliquam sit amet,
+            dictum quis mauris.
+        </p>
+    </aside>
+    <section>
+        <h2>Mission du HTML5</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            ultricies felis eu erat gravida, eget elementum augue pretium.
+            Pellentesque ut elementum augue, vel vehicula purus. Suspendisse
+            potenti. In ullamcorper mauris eget tincidunt malesuada. In ac congue
+            mauris. Quisque maximus ligula non quam pellentesque gravida et nec
+            arcu. Curabitur a risus interdum, gravida lorem sit amet, maximus nunc.
+            Nulla facilisi. Maecenas elit dui, tempor ac ante eget, iaculis vehicula
+            mauris. Sed eget tellus cursus, vestibulum nibh sed, tempus risus.
+            Vivamus pretium iaculis faucibus.
+        </p>
+        <article>
+            <header>
+                <h2 class="decale">What’s new?</h2>
+                <p class="decale">
+                    Par David, posté le
+                    <time datetime="2012-09-05" pubdate>05 Septembre 2022</time>
+                </p>
+            </header>
+            <figure>
+                <img src="assets/images/categorie.png" title="Les contenus HTML5" />
+                <figcaption>Les différents contenus HTML5</figcaption>
+            </figure>
+            <p>
+                Donec libero magna, dapibus ac facilisis ut, sodales et nulla.
+                Suspendisse interdum consequat elit vitae iaculis. In commodo
+                vulputate orci, nec laoreet ipsum. Cras at felis quis urna mattis
+                ullamcorper. Phasellus mauris sem, varius nec convallis ullamcorper,
+                hendrerit a tortor. Integer non sapien nec ex dapibus sollicitudin vel
+                et augue. Mauris imperdiet porta elit, sed dignissim tortor
+                ullamcorper vitae. Proin urna quam, bibendum ac aliquam sit amet,
+                dictum quis mauris.
+            </p>
+        </article>
+        <article>
+            <aside id="article_aside">
+                <h3>Plus d'infos</h3>
+                <p>Lisez les recommandations du W3C. <a href="#">Lien.</a></p>
+            </aside>
+            <p>
+                Lorem Ipsum est simplement un texte fictif de l'industrie de l'impression et de la composition. <mark>Lorem
+                Ipsum est le texte factice standard </mark>de l'industrie depuis les années 1500, quand une imprimante inconnue
+                a pris une cuisine de type et l'a brouillé pour faire un échantillon de type. Il a survécu non seulement
+                à cinq siècles, mais aussi au saut dans la composition électronique, restant essentiellement inchangé.
+                Il a été popularisé dans les années 1960 avec la sortie de feuilles Letraset contenant des passages de
+                Lorem Ipsum, et plus récemment avec des logiciels de publication assistée par ordinateur comme Aldus
+                PageMaker, y compris des versions de Lorem Ipsum.
+            </p>
+            <p><small>© copyright 2012 AFCI NEWSOFT.</small></p>
+        </article>
+    </section>
+    <footer>
+        <p class="text_footer">Copyright AFCI NEWSOFT 2012</p>
+        <p class="text_footer">En vous enregistrant ou en utilisant ce site, vous</br> acceptez notre contrat
+            utilisateur et notre
+            charte</br> de Respect de la vie privée.</p>
+    </footer>
 </body>
+
 </html>
